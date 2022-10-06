@@ -1,0 +1,144 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light {
+    background-color: rgb(255, 255, 255);
+    color: rgb(118, 39, 0);
+    border: 2px solid #ffffff;  
+}
+
+.btn i {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.topmargin-xs { margin-top: 15px;}
+.topmargin-sm { margin-top: 200px;}
+.topmargin-lg { margin-top: 60px;}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+    min-height: 100px;
+}
+
+.nav-link {
+    color: rgb(118, 39, 0);
+}
+.nav-link:hover {
+    color: rgb(118, 39, 0);
+}
+.logo-brand {
+    min-width: 100px;
+    max-width: 100px;
+
+}
+ion-icon {
+    color: rgb(255, 255, 255);
+}
+
+  #hero {
+    background-image: url("https://res.cloudinary.com/pixel-direction/image/upload/v1664571234/hr/h6_oy4eed.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: rgb(255, 255, 255);
+  }
+
+  #hero1 {
+    background-image: url("https://res.cloudinary.com/pixel-direction/image/upload/v1664597297/hr/DSC00723_tx1irj.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: rgb(255, 255, 255);
+  }
+
+  #hero2 {
+    background-image: url("https://res.cloudinary.com/pixel-direction/image/upload/v1664743740/hr/DSC09153_msdwak.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: rgb(255, 255, 255);
+  }
+
+  .cont-centro {
+
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+  }
+
+  .row {
+    margin: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+.card-footer {
+
+    background-color: rgb(0, 33, 56);
+
+}
+
+.fotx {
+    margin: 5px;
+    margin-right: auto;
+        margin-left: auto;
+
+}
+
+.iconos-foot {
+
+    margin: 4px;
+    
+
+}
+
+
+
+.navbar-toggler ion-icon {
+        color: rgb(118, 39, 0);
+      }
+
+
+
+@media (max-width: 575.98px) { 
+    h1 { font-size: 40px; line-height: normal; }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+@media (min-width: 1200px) { ... }
